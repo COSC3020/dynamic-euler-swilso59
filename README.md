@@ -26,7 +26,7 @@ This gives us the worst-case time complexity of $\Theta(n)$.
 
 ## Plagiarism Acknowledgement
 
-I conducted this assignment on my own. The First step I took was to determine where the reapeated work was occuring. I initially converted each function to a iteritave version to avoid recurrsion. This seemed promising but looking at the `e` function I noticed that there was reapeated work still happening at the point where I was calling the `factorial` function to detemine the result. This was causing repeated work where each iteration if `e` was computing the factorial and not re-using the previously computed factoiral results. From here I moved forward to implementing the factorial computation into the `e` function. In the test code I wanted to use the given reursive version of `factorial` and `e` to compare the results. 
+I conducted this assignment on my own. The First step I took was to determine where the reapeated work was occuring. I initially converted each function to a iteritave version to avoid recurrsion. This seemed promising but looking at the `e` function I noticed that there was reapeated work still happening at the point where I was calling the `factorial` function to detemine the result. This was causing repeated work where each iteration if `e` was computing the factorial and not re-using the previously computed factoiral results. From here I moved forward to implementing the factorial computation into the `e` function. In the test code I use the given reursive version of `factorial` and `e` to compare the results. 
 
 “I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
