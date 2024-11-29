@@ -20,8 +20,8 @@ What is the worst-case big $\Theta$ time complexity of your algorithm?
 
 ## Answer 
 
-Looking at the The algorithm we have a check for the base case that runs in constant time `if` $n = 0$. 
-For $n > 0$ the code goes to the `for` loop which iterates $n$ times. Which gives us linear time .Inside the `for` loop we only execute operations that take constant time.  
+Looking at the the algorithm we have a check for the base case that runs in constant time `if` $n = 0$. 
+For $n > 0$ the code goes to the `for` loop which iterates $n$ times. Which gives us linear time . Inside the `for` loop we only execute operations that take constant time.  
 This gives us the worst-case time complexity of $\Theta(n)$. 
 
 ## Plagiarism Acknowledgement
